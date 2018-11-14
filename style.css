@@ -1,0 +1,154 @@
+.page-heading {
+    background-image: url("images/top1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; */
+    background-size: cover;
+    background-color: #ffffff;
+    min-height: 530px;
+    position: relative;
+    color: #fff;
+    opacity: 1;
+}
+
+.top-panel {
+    font-family: Roboto,Arial,Tahoma,Verdana;
+}
+
+.navbarCustom {
+    margin-top: 12px;
+    margin-right: -52px;
+}
+.navbar-brand {
+    height: auto;
+    padding: 0px 0px;
+}
+.navbar-inst {
+    font-family: georgia, serif;
+    /*background-color: #0c74ff;*/
+    /*background-color: #FDFDFD; /*#007342;*/
+    font-size: 14px;
+    border-color: #FDFDFD;
+}
+.navbar-nav a {
+    color: #fff;
+}
+
+
+
+.centrTitle {
+    padding-top: 80px;
+    font-family: Roboto,Arial,Tahoma,Verdana;
+}
+.centrTitleCaption {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.centrTitleSubcaption {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.centrTitleText {
+    font-size: 16px;
+}
+.serviceCaption {
+    text-align: center;
+    margin: 36px 0;
+}
+
+.serviceTitle {
+    font-size: 18px;
+    text-align: center;
+    padding: 22px 0;
+}
+.companyServiceContent {
+    color: #5b5b5b;
+    font-size: 15px;
+
+}
+.serviceCaption {
+    font-family: Roboto,Arial,Tahoma,Verdana;
+}
+.serviceBorder {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    height: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "a_AntiqueTitulGr";
+    src: url("fonts/a_AntiqueTitulGr.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("fonts/Tahoma.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
