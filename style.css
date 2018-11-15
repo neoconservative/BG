@@ -1,5 +1,10 @@
+.mainheader {
+    position: relative;
+    margin-top: 84px;
+}
+
 .page-heading {
-    background-image: url("images/top1.jpg");
+    background-image: url("images/keyb.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     /*background-attachment: fixed; */
@@ -8,10 +13,18 @@
     min-height: 530px;
     position: relative;
     color: #fff;
-    opacity: 1;
+    opacity: 0.7;
 }
 
-.top-panel {
+.headerNavFixed {
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    min-height: 72px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
     font-family: Roboto,Arial,Tahoma,Verdana;
 }
 
@@ -21,7 +34,7 @@
 }
 .navbar-brand {
     height: auto;
-    padding: 0px 0px;
+    padding: 9px 0px;
 }
 .navbar-inst {
     font-family: georgia, serif;
@@ -31,10 +44,13 @@
     border-color: #FDFDFD;
 }
 .navbar-nav a {
-    color: #fff;
+    color: #343434;
 }
 
-
+.buttActive a:hover {
+    background: none!important;
+    color: #dadada;
+}
 
 .centrTitle {
     padding-top: 80px;
@@ -60,6 +76,7 @@
     font-size: 18px;
     text-align: center;
     padding: 22px 0;
+    color: #5b5b5b;
 }
 .companyServiceContent {
     color: #5b5b5b;
@@ -76,9 +93,70 @@
     border-right: 1px solid #e1e1e1;
     height: 210px;
 }
+.technologiesViewBorder {
+    border-left: 1px solid #999;
+    height: 100%;
 
 
 
+}
+.technologiesViewTitle {
+    color: #7889a7;
+    width: 215px;
+    padding-left: 40px;
+    font: 400 28px "Roboto Bold",Arial,Tahoma,Verdana;
+    box-sizing: border-box;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.technologiestabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.technologiestabs li {
+    /*border: 1px solid #999;
+    border-bottom: none;*/
+    background: none;
+}
+
+.technologiestabs li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #7889a7;
+    text-decoration: none;
+}
+
+.technologiestabs li a:hover {
+    background: #dedede;
+}
+
+.technologiestabs li.active,
+.technologiestabs li.active a:hover {
+    font-weight: bold;
+    background: none;
+}
+
+.technologiestab_container {
+    border: 1px solid #999;
+    border-top: none;
+    border-bottom: none ;
+    background: #fff;
+}
+
+.technologiestab_content {
+    padding: 20px;
+    font-size: 16px;
+    width: 100%;
+}
 
 
 

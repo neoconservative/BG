@@ -11,9 +11,8 @@
 
     </head>
 	<body>
-	<header id="home">
-		<div class="page-heading">
-			<div class="top-panel">
+	<header id="home" class="mainheader">
+			<div class="headerNavFixed">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-3 col-xs-12">
@@ -22,7 +21,7 @@
 							</a>
 						</div>
 						<div class="col-md-9 col-sm-9 col-xs-12">
-							<nav class="navbar navbarCustom" role="navigation">
+							<nav class="navbar navbarCustom navbar-right" role="navigation">
 								<div class="navbar-inst">
 
 									<div class="container-fluid">
@@ -41,11 +40,11 @@
 										<!—Само меню-->
 										<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 											<ul class="nav navbar-nav">
-												<li class=""><a class="anchor" href="#menu-service">Service<span class="sr-only">(current)</span></a></li>
-												<li class=""><a class="anchor" href="#menu-technologiest">Technologies</a></li>
-												<li class=""><a class="anchor" href="#menu-value">Core Values</a></li>
+												<li class="buttActive"><a class="anchor" href="#menu-service">Service<span class="sr-only">(current)</span></a></li>
+												<li class="buttActive"><a class="anchor" href="#menu-technologiest">Technologies</a></li>
+												<li class="buttActive"><a class="anchor" href="#menu-value">Core Values</a></li>
 												<!--<li class=""><a class="anchor" href="#menu-cases">Что-то еще</a></li>-->
-												<li class=""><a class="anchor" href="#menu-contact">CONTACT US</a></li>
+												<li class="buttActive"><a class="anchor" href="#menu-contact">Contact Us</a></li>
 											</ul>
 										</div><!-- /.navbar-collapse -->
 									</div><!-- /.container-fluid -->
@@ -55,6 +54,7 @@
 					</div>
 				</div>
 			</div>
+		<div class="page-heading">
 			<div class="centrTitle">
 				<div class="container">
 					<div class="row">
@@ -111,14 +111,160 @@
 						usually within 2-3 business days. Whether you need 5 or 50 specialists,
 						over time you can grow the team with however many you need.
 						All our specialists have experience working full-time in dedicated
-						environments, because we only use professional service providers.</p></div>
-
+						environments, because we only use professional service providers.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="menu-technologiest">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="serviceCaption">Key Technologies We Use</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="technologiesViewTitle">
+						<p>Frontend</p>
+					</div>
+				</div>
+				<div class="col-md-3 technologiesViewBorder">
+					<div class="technologiesView">
+						<ul class="technologiestabs">
+							<li><a href="#technologiestab1">React.js</a></li>
+							<li><a href="#technologiestab2">Marionette.js</a></li>
+							<li><a href="#technologiestab3">Webix</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="technologiestab_container">
+						<div id="technologiestab1" class="technologiestab_content">
+							<div class="technlogiesViewLogo">
+								<img src="images/react.png" alt="" class="img-responsive">
+							</div>
+							<div class="technlogiesViewText">
+							Our web and software product development company
+							offers a full range of web development services and
+							has competence in custom application development
+							using React.js technology. The company’s portfolio includes
+							a range of projects with React.js, such as web-based video
+							conferencing apps, stock trading and ecommerce solutions,
+							along with other IT solutions for clients from the USA,
+							Canada, EU and UK.
+						    </div>
+						</div>
+						<div id="technologiestab2" class="technologiestab_content">
+							<div class="technlogiesViewLogo">
+								<img src="images/marionette.png" alt="" class="img-responsive">
+							</div>
+							<div class="technlogiesViewText">
+							We can undertake your programming efforts and is ready to
+							implement the frontend using Marionette.js effectively and at
+							a reasonable price. Outsource coding of your web apps to our
+							team and you will save your time and budget. Custom solutions
+							built by the team of seasoned Marionette.js developers include
+							sophisticated web portals for manufacturers and buyers, ecommerce
+							tools, and other apps.
+							</div>
+						</div>
+						<div id="technologiestab3" class="technologiestab_content">
+							<div class="technlogiesViewLogo">
+								<img src="images/webix.png" alt="" class="img-responsive">
+							</div>
+							<div class="technlogiesViewText">
+							Our IT software development company has extensive experience in
+							the production of cutting-edge web applications and tools, including
+							Webix JavaScript UI Widgets Library. Deep expertise with the Webix
+							technology allows us to offer Webix customization and development
+							services to any type of business. Webix provides highly customizable
+							widgets which can make a valuable addition to any web solution.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="technologiesViewTitle">
+						<p>Backend</p>
+					</div>
+				</div>
+				<div class="col-md-3 technologiesViewBorder">
+					<div class="technologiesView">
+						<ul class="technologiestabs">
+							<li><a href="#technologiestab_1">React.js</a></li>
+							<li><a href="#technologiestab_2">Marionette.js</a></li>
+							<li><a href="#technologiestab_3">Webix</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="technologiestab_container">
+						<div id="technologiestab_1" class="technologiestab_content">
+							<div class="technlogiesViewLogo">
+								<img src="images/react.png" alt="" class="img-responsive">
+							</div>
+							<div class="technlogiesViewText">
+								Our web and software product development company
+								offers a full range of web development services and
+								has competence in custom application development
+								using React.js technology. The company’s portfolio includes
+								a range of projects with React.js, such as web-based video
+								conferencing apps, stock trading and ecommerce solutions,
+								along with other IT solutions for clients from the USA,
+								Canada, EU and UK.
+							</div>
+						</div>
+						<div id="technologiestab_2" class="technologiestab_content">
+							<div class="technlogiesViewLogo">
+								<img src="images/marionette.png" alt="" class="img-responsive">
+							</div>
+							<div class="technlogiesViewText">
+								We can undertake your programming efforts and is ready to
+								implement the frontend using Marionette.js effectively and at
+								a reasonable price. Outsource coding of your web apps to our
+								team and you will save your time and budget. Custom solutions
+								built by the team of seasoned Marionette.js developers include
+								sophisticated web portals for manufacturers and buyers, ecommerce
+								tools, and other apps.
+							</div>
+						</div>
+						<div id="technologiestab_3" class="technologiestab_content">
+							<div class="technlogiesViewLogo">
+								<img src="images/webix.png" alt="" class="img-responsive">
+							</div>
+							<div class="technlogiesViewText">
+								Our IT software development company has extensive experience in
+								the production of cutting-edge web applications and tools, including
+								Webix JavaScript UI Widgets Library. Deep expertise with the Webix
+								technology allows us to offer Webix customization and development
+								services to any type of business. Webix provides highly customizable
+								widgets which can make a valuable addition to any web solution.
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
-
 	</section>
+
+
+
+
+
+
+
+
+
+
 
 
 
