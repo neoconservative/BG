@@ -94,32 +94,46 @@
     height: 210px;
 }
 .technologiesViewBorder {
-    border-left: 1px solid #999;
-    height: 100%;
-
-
 
 }
 .technologiesViewTitle {
     color: #7889a7;
-    width: 215px;
+    /*width: 215px;*/
     padding-left: 40px;
     font: 400 28px "Roboto Bold",Arial,Tahoma,Verdana;
 
 }
-.img-responsive {
+.navbar-brand .img-responsive {
     max-width: 100%;
     height: auto;
 }
 
 
+.technologiesWrapp {
+    border-top: 1px solid #e3e3e3;
+    padding-top: 26px;
+    height: 300px;
+}
+.technologiestab_container {
+    border-left: 2px solid #005aff;
+    background: #fff;
+    border-right: 2px solid #005aff;
+    height: 250px;
+}
 
-
+/*Easy tabs Technologies key 1*/
 .technologiestabs {
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow: hidden;
+    overflow-y: scroll;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 2px solid #005aff;
 }
 .technologiestabs li {
     /*border: 1px solid #999;
@@ -144,25 +158,109 @@
     font-weight: bold;
     background: none;
 }
-
-.technologiestab_container {
-    border: 1px solid #999;
-    border-top: none;
-    border-bottom: none ;
-    background: #fff;
-}
-
 .technologiestab_content {
     padding: 20px;
     font-size: 16px;
     width: 100%;
 }
-.technologiesWrapp {
-    border-top: 1px solid #e3e3e3;
-    padding-top: 26px;
-    height: auto;
+/**/
+
+/*Easy tabs Technologies key 2*/
+.technologiestabs2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-y: scroll;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 2px solid #005aff;
+}
+.technologiestabs2 li {
+    /*border: 1px solid #999;
+    border-bottom: none;*/
+    background: none;
 }
 
+.technologiestabs2 li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #7889a7;
+    text-decoration: none;
+}
+
+.technologiestabs2 li a:hover {
+    background: #dedede;
+}
+
+.technologiestabs2 li.active,
+.technologiestabs2 li.active a:hover {
+    font-weight: bold;
+    background: none;
+}
+.technologiestab_content2 {
+    padding: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+/**/
+/*Easy tabs Technologies key 2*/
+.technologiestabs3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-y: scroll;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 2px solid #005aff;
+}
+.technologiestabs3 li {
+    /*border: 1px solid #999;
+    border-bottom: none;*/
+    background: none;
+}
+
+.technologiestabs3 li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #7889a7;
+    text-decoration: none;
+}
+
+.technologiestabs3 li a:hover {
+    background: #dedede;
+}
+
+.technologiestabs3 li.active,
+.technologiestabs3 li.active a:hover {
+    font-weight: bold;
+    background: none;
+}
+.technologiestab_content3 {
+    padding: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+/**/
+
+
+.navbar-brand .img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.img-responsive {
+    max-width: 100%;
+    height: 75px;
+}
 .value {
     background-image: url("images/value.jpg");
     background-position: center center;
@@ -236,7 +334,7 @@
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
     -moz-transform: scale(1.2);
-    transition:  .4s ease-in-out;
+    transition:  .3s ease-in-out;
 
 }
 
@@ -266,7 +364,9 @@
 
 }
 
+.valueCase {
 
+}
 
 
 .valueCore {
@@ -280,7 +380,7 @@
 .valueCoreText {
     text-align: center;
     width: 100%;
-    color: #222222;
+    color: #000000;
     font-size: 22px;
 }
 

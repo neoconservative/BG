@@ -1,4 +1,4 @@
-//Easy tabs
+//Easy tabs Technologies key 1
 $(document).ready(function($) {
     $('.technologiestab_content').hide();
     $('.technologiestab_content:first').show();
@@ -14,7 +14,40 @@ $(document).ready(function($) {
     });
 });
 
-//Easy tabs
+//Easy tabs Technologies key 2
+$(document).ready(function($) {
+    $('.technologiestab_content2').hide();
+    $('.technologiestab_content2:first').show();
+    $('.technologiestabs2 li:first').addClass('active');
+    $('.technologiestabs2 li').click(function(event) {
+        $('.technologiestabs2 li').removeClass('active');
+        $(this).addClass('active');
+        $('.technologiestab_content2').hide();
+
+        var selectTab = $(this).find('a').attr("data-target");
+
+        $(selectTab).fadeIn();
+    });
+});
+
+//Easy tabs Technologies key 2
+$(document).ready(function($) {
+    $('.technologiestab_content3').hide();
+    $('.technologiestab_content3:first').show();
+    $('.technologiestabs3 li:first').addClass('active');
+    $('.technologiestabs3 li').click(function(event) {
+        $('.technologiestabs3 li').removeClass('active');
+        $(this).addClass('active');
+        $('.technologiestab_content3').hide();
+
+        var selectTab = $(this).find('a').attr("data-target");
+
+        $(selectTab).fadeIn();
+    });
+});
+
+
+//Easy tabs value
 $(document).ready(function($) {
     $('.value_content').hide();
     $('.value_content:first').show();
@@ -31,7 +64,7 @@ $(document).ready(function($) {
 });
 
 
-
+// email
 $(document).ready(function(){
     $('#submit').attr('disabled',true);
 
@@ -49,7 +82,7 @@ $(document).ready(function(){
 });
 
 
-
+// scroll
 var limit     = $(window).height()/3,
     $backToTop = $('#back-to-top');
 
@@ -61,7 +94,7 @@ $(window).scroll(function () {
     }
 });
 
-// scroll body to 0px on click
+
 $backToTop.click(function () {
     // language=JQuery-CSS
     $('body,html').animate({
