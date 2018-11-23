@@ -13,7 +13,7 @@
     min-height: 530px;
     position: relative;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .headerNavFixed {
@@ -33,13 +33,12 @@
     margin-right: -52px;
 }
 .navbar-brand {
-    height: auto;
-    padding: 9px 0px;
+    padding: 9px 0;
 }
 .navbar-inst {
     font-family: georgia, serif;
     /*background-color: #0c74ff;*/
-    /*background-color: #FDFDFD; /*#007342;*/
+    /*background-color: #FDFDFD; !*#007342;*/
     font-size: 14px;
     border-color: #FDFDFD;
 }
@@ -55,7 +54,14 @@
 .centrTitle {
     padding-top: 80px;
     font-family: Roboto,Arial,Tahoma,Verdana;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #FFFFFF;
 }
+
 .centrTitleCaption {
     font-size: 38px;
     margin-bottom: 25px;
@@ -81,17 +87,24 @@
 .companyServiceContent {
     color: #5b5b5b;
     font-size: 15px;
-
+    margin: 0px 5%;
 }
 .serviceCaption {
     font-family: Roboto,Arial,Tahoma,Verdana;
 }
-.serviceBorder {
+.serviceBorder1 {
+    border-top: 1px solid #e1e1e1;
+    /*border-bottom: 1px solid #e1e1e1;*/
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+
+}
+.serviceBorder2 {
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
     border-left: 1px solid #e1e1e1;
     border-right: 1px solid #e1e1e1;
-    height: 210px;
+
 }
 .technologiesViewBorder {
 
@@ -104,7 +117,7 @@
 
 }
 .navbar-brand .img-responsive {
-    max-width: 100%;
+    max-width: 265px;
     height: auto;
 }
 
@@ -213,7 +226,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow-y: scroll;
+    overflow: hidden;
     height: 248px;
     position: absolute;
     left: 0;
@@ -252,15 +265,21 @@
 }
 /**/
 
-
-.navbar-brand .img-responsive {
-    max-width: 100%;
-    height: auto;
-}
 .img-responsive {
     max-width: 100%;
     height: 75px;
 }
+.valuePosition {
+    position: relative;
+}
+.valueCase {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
 .value {
     background-image: url("images/value.jpg");
     background-position: center center;
@@ -271,7 +290,7 @@
     min-height: 530px;
     position: relative;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .values {
     text-align: center;
@@ -285,9 +304,6 @@
 .values li {
     float:left;
 }
-
-
-
 
 .valueTitletext {
     color: #000000;
@@ -364,9 +380,7 @@
 
 }
 
-.valueCase {
 
-}
 
 
 .valueCore {
@@ -583,9 +597,6 @@
     font-style: normal;
     font-weight: bold;
 }
-
-
-
 
 
 

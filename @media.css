@@ -1,0 +1,126 @@
+@media (max-width: 500px) {
+    .navbarCustom {
+        margin-top: -43px;
+        margin-right: -20px;
+        margin-bottom: 0;
+        border: none;
+    }
+    .navbar-toggle {
+        padding: 15px 12px 0px 15px;
+        margin-top: 15px;
+        margin-right: 12px;
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+
+
+
+
+    .page-heading {
+        min-height: 360px;
+    }
+    .centrTitle {
+        padding-top: 50px;}
+
+    .centrTitleCaption {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+    .centrTitleSubcaption {
+        font-size: 15px;
+        margin: 0 10px 12px 10px;
+    }
+    .centrTitleText {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+
+
+    .serviceCaption {
+        margin: 24px 0;
+        font-size: 18px;
+    }
+    .companyServiceContent {
+        font-size: 14px;
+        margin: 0px 0%;
+    }
+    .serviceTitle {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+
+    .bottom-info li {
+        margin-top: 25px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    .emailWrap {
+        margin-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .value {
+        min-height: 380px;
+    }
+    .valueTitletext {
+        font-size: 22px;
+    }
+    .valuetabs li {
+        margin: 9px 8px;
+    }
+    .img-value {
+        max-width: 41px;
+    }
+    .valuetabs li a {
+        padding: 6px 0;
+    }
+    .valuetabs {
+        height: 65px;
+    }
+    .valuetabs li.active,
+    .valuetabs li.active a:hover {
+        border-bottom: 1px solid #005aff;
+    }
+    .values {
+        height: 50px;
+    }
+    .valueCore h3 {
+        font-size: 18px;
+    }
+    .valueCoreText {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+

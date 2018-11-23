@@ -7,6 +7,7 @@
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="style.css" rel="stylesheet" type="text/css">
+		<link href="@media.css" rel="stylesheet" type="text/css">
     </head>
 	<body>
 	<header id="home" class="mainheader">
@@ -15,7 +16,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<a href="#" class="navbar-brand">
-								<img class="img-responsive" src="images/Logo_logo1.png" width="" alt="alt">
+								<img class="img-responsive" src="images/BG_logo.png" width="" alt="alt">
 							</a>
 						</div>
 						<div class="col-md-9 col-sm-9 col-xs-12">
@@ -25,11 +26,7 @@
 									<div class="container-fluid">
 										<!—Название сайта и кнопка раскрытия меню для мобильных-->
 										<div class="navbar-header">
-											<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-												<span class="sr-only">Toggle navigation</span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
+											<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><img class="navbarToggleIcon" src="images/icon-menu.svg">
 											</button>
 											<a class="navbar-brand" href="#">
 											</a>
@@ -53,6 +50,7 @@
 				</div>
 			</div>
 		<div class="page-heading">
+		</div>
 			<div class="centrTitle">
 				<div class="container">
 					<div class="row">
@@ -63,22 +61,22 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</header>
 	<section id="menu-service">
 	<h2 class="serviceCaption">Expert in IT Development Services</h2>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 serviceBorder">
+				<div class="col-md-6 serviceBorder1">
 					<h3 class="serviceTitle">Custom Software Development</h3>
 					<div class="companyServiceContent"><p>10 years of experience in
 						turning our clients’ business ideas into successful web solutions that meet
 						their business requirements and contribute to their strategies. We focus on
 						building enterprise application software (EAS), business intelligence
 						solutions, custom eLearning development, data visualization tools, but
-						we can build solutions for practically any industry.</p></div>
+						we can build solutions for practically any industry.</p>
+					</div>
 				</div>
-				<div class="col-md-6 serviceBorder">
+				<div class="col-md-6 serviceBorder1">
 					<h3 class="serviceTitle">Mobile Application Development</h3>
 					<div class="companyServiceContent"><p>We use cross-platform frameworks
 					and technologies such as PhoneGap and Webix JavaScript UI library to create
@@ -88,10 +86,10 @@
 
 				</div>
 			</div>
-		</div>
-		<div class="container">
+
+
 			<div class="row">
-				<div class="col-md-6 serviceBorder">
+				<div class="col-md-6 serviceBorder2">
 					<h3 class="serviceTitle">QA and Software Testing</h3>
 					<div class="companyServiceContent"><p>Our experienced team of QA engineers
 						is dedicated to ensuring the high quality and reliability of your websites
@@ -101,7 +99,7 @@
 						Our ultimate goal is to make sure that your product is user-friendly and
 						meets the requirements of your target audience.</p></div>
 				</div>
-				<div class="col-md-6 serviceBorder">
+				<div class="col-md-6 serviceBorder2">
 					<h3 class="serviceTitle">IT Staff Augmentation</h3>
 					<div class="companyServiceContent"><p>You can augment your staff with
 						our experienced web developers, mobile developers and QA engineers,
@@ -114,7 +112,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="menu-technologiest">
+	<section id="menu-technologiest" class="valuePosition">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -441,7 +439,7 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="technologiesViewTitle">
-						<p>Infrastructure and <br>Process</p>
+						<p>Infrastructure<br>and<br>Process</p>
 					</div>
 				</div>
 				<div class="col-md-3 technologiesViewBorder">
@@ -515,7 +513,10 @@
 			</div>
 		</div>
 	</section>
-	<section id="menu-value">
+	<section id="menu-value" class="valuePosition">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12"></div>
 		<div class="value">
 		</div>
 		<div class="valueCase">
@@ -594,7 +595,8 @@
 				</div>
 			</div>
 		</div>
-
+		</div>
+		</div>
 	</section>
 
 
@@ -625,7 +627,7 @@
 	<div id="menu-contact" class="contact-section">
 		<div class="container-fluid map-left">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 maps">
 					<div class="map-responsive">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619.7371883391974!2d-0.30290697073027145!3d51.58750259872801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487613edecacf399%3A0x6d34984894a2a9e7!2zMzgyIEtlbnRvbiBSZCwgSGFycm93IEhBMyA4RFAsINCS0LXQu9C40LrQvtCx0YDQuNGC0LDQvdC40Y8!5e0!3m2!1sru!2sru!4v1542340382895" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
@@ -683,6 +685,11 @@
 	<div id="back-to-top">
 		<i class="glyphicon glyphicon-chevron-up"></i>
 	</div>
+
+
+
+
+
 
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
