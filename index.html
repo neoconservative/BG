@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
-		<!-- Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="style.css" rel="stylesheet" type="text/css">
 		<link href="@media.css" rel="stylesheet" type="text/css">
@@ -24,25 +23,25 @@
 								<div class="navbar-inst">
 
 									<div class="container-fluid">
-										<!—Название сайта и кнопка раскрытия меню для мобильных-->
 										<div class="navbar-header">
-											<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><img class="navbarToggleIcon" src="images/icon-menu.svg">
+											<button type="button" class="navbar-toggle collapsed"
+													data-toggle="collapse"
+													data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+												<img class="navbarToggleIcon" src="images/icon-menu.svg">
 											</button>
-											<a class="navbar-brand" href="#">
-											</a>
+											<a class="navbar-brand" href="#"></a>
 										</div>
 
 										<!—Само меню-->
-										<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+										<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
 											<ul class="nav navbar-nav">
 												<li class="buttActive"><a class="anchor" href="#menu-service">Service<span class="sr-only">(current)</span></a></li>
 												<li class="buttActive"><a class="anchor" href="#menu-technologiest">Technologies</a></li>
 												<li class="buttActive"><a class="anchor" href="#menu-value">Core Values</a></li>
-												<!--<li class=""><a class="anchor" href="#menu-cases">Что-то еще</a></li>-->
 												<li class="buttActive"><a class="anchor" href="#menu-contact">Contact Us</a></li>
 											</ul>
-										</div><!-- /.navbar-collapse -->
-									</div><!-- /.container-fluid -->
+										</div>
+									</div>
 								</div>
 							</nav>
 						</div>
@@ -82,12 +81,9 @@
 					and technologies such as PhoneGap and Webix JavaScript UI library to create
 					consumer-centric business applications for different industries. We build HTML5
 					hybrid mobile apps and mobile-optimized web apps that provide a native user
-					experience, as well as native apps on Android</p></div>
-
+					experience, as well as native apps on Android.</p></div>
 				</div>
 			</div>
-
-
 			<div class="row">
 				<div class="col-md-6 serviceBorder2">
 					<h3 class="serviceTitle">QA and Software Testing</h3>
@@ -112,7 +108,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="menu-technologiest" class="valuePosition">
+	<section id="menu-technologiest" class="technologiesPosition">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -121,13 +117,13 @@
 			</div>
 		</div>
 		<div class="container technologiesWrapp">
-			<div class="row">
-				<div class="col-md-3">
+			<div class="row technoPadding">
+				<div class="col-md-3 col-sm-3">
 					<div class="technologiesViewTitle">
 						<p>Frontend</p>
 					</div>
 				</div>
-				<div class="col-md-3 technologiesViewBorder">
+				<div class="col-md-3 col-sm-3 technologiesViewBorder">
 					<div class="technologiesView">
 						<ul class="technologiestabs">
 							<li><a data-target="#technologiestab1">React.js</a></li>
@@ -141,7 +137,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6 technologiesText">
 					<div class="technologiestab_container">
 						<div id="technologiestab1" class="technologiestab_content">
 							<div class="technlogiesViewLogo">
@@ -237,14 +233,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="container technologiesWrapp">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="technologiesViewTitle">
+		<div class="container technologiesWrapp2">
+			<div class="row technoPadding">
+				<div class="col-md-3 col-sm-3">
+					<div class="technologiesViewTitle2">
 						<p>Backend</p>
 					</div>
 				</div>
-				<div class="col-md-3 technologiesViewBorder">
+				<div class="col-md-3 col-sm-3 technologiesViewBorder">
 					<div class="technologiesView">
 						<ul class="technologiestabs2">
 							<li><a data-target="#technologiestab_1">Node.js</a></li>
@@ -252,7 +248,7 @@
 							<li><a data-target="#technologiestab_4">MongoDB</a></li>
 							<li><a data-target="#technologiestab_5">Redis</a></li>
 							<li><a data-target="#technologiestab_6">Express</a></li>
-							<li><a data-target="#technologiestab_7">ajv</a></li>
+							<li><a data-target="#technologiestab_7">AJV</a></li>
 							<li><a data-target="#technologiestab_8">Mongoose</a></li>
 							<li><a data-target="#technologiestab_9">Mocha/Chai</a></li>
 							<li><a data-target="#technologiestab_10">AWS</a></li>
@@ -264,7 +260,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6 technologiesText2">
 					<div class="technologiestab_container">
 						<div id="technologiestab_1" class="technologiestab_content2">
 							<div class="technlogiesViewLogo">
@@ -325,13 +321,10 @@
 						</div>
 						<div id="technologiestab_7" class="technologiestab_content2">
 						<div class="technlogiesViewLogo">
-							<img src="images/.png" alt="" class="img-responsive">
+							<img src="images/ajv.png" alt="" class="img-responsive">
 						</div>
 						<div class="technlogiesViewText">
-
-							-
-
-
+							The fastest JSON Schema validator for Node.js and browser.
 						</div>
 					</div>
 					<div id="technologiestab_8" class="technologiestab_content2">
@@ -343,7 +336,7 @@
 							your application data. It includes built-in type casting, validation,
 							query building, business logic hooks and more, out of the box. In simple
 							words, Mongoose acts as an intermediate between mongodb and server
-							side language(like NodeJs)
+							side language(like NodeJs).
 						</div>
 					</div>
 					<div id="technologiestab_9" class="technologiestab_content2">
@@ -435,14 +428,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="container technologiesWrapp">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="technologiesViewTitle">
-						<p>Infrastructure<br>and<br>Process</p>
+		<div class="container technologiesWrapp3">
+			<div class="row technoPadding">
+				<div class="col-md-3 col-sm-3">
+					<div class="technologiesViewTitle3">
+						<p>Infrastructure and Process</p>
 					</div>
 				</div>
-				<div class="col-md-3 technologiesViewBorder">
+				<div class="col-md-3 col-sm-3 technologiesViewBorder">
 					<div class="technologiesView">
 						<ul class="technologiestabs3">
 							<li><a data-target="#technologiestab1_1">Jenkins</a></li>
@@ -453,7 +446,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6 technologiesText3">
 					<div class="technologiestab_container">
 						<div id="technologiestab1_1" class="technologiestab_content3">
 							<div class="technlogiesViewLogo">
@@ -516,7 +509,7 @@
 	<section id="menu-value" class="valuePosition">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12"></div>
+
 		<div class="value">
 		</div>
 		<div class="valueCase">
@@ -598,41 +591,16 @@
 		</div>
 		</div>
 	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<section>
 	<div id="menu-contact" class="contact-section">
 		<div class="container-fluid map-left">
 			<div class="row">
-				<div class="col-md-4 maps">
+				<div class="col-md-4 col-sm-12 maps">
 					<div class="map-responsive">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619.7371883391974!2d-0.30290697073027145!3d51.58750259872801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487613edecacf399%3A0x6d34984894a2a9e7!2zMzgyIEtlbnRvbiBSZCwgSGFycm93IEhBMyA4RFAsINCS0LXQu9C40LrQvtCx0YDQuNGC0LDQvdC40Y8!5e0!3m2!1sru!2sru!4v1542340382895" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="contactTitle">
 						<h3>Contact us</h3>
 					</div>
@@ -647,36 +615,25 @@
 									<a href="mailto: info@betelgeuseprojects.co.uk">  info@betelgeuseprojects.co.uk</a>
 								</li>
 								<li class="bottom-map-marker">
-									<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><span> Pacific House 382,</span>
+									<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><span class="PacificHouse">  Pacific House 382,</span>
 									<br><span style="margin-left: 23px">Kenton Road Harrow</span><br><span style="margin-left: 23px">Middlesex, HA3 8DP</span>
 								</li>
 							</ul>
 						</div>
 					</div>
 					</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="emailWrap">
 						<h3 class="text-center">Send email to Betelgeuse projects</h3>
 					<form class="contact-form" method="post" id="form">
 						    <input class="form-control" id="email" placeholder="Your Email" type="email">
-
 							<textarea class="form-control"
 									  placeholder="Message" id="message" rows="5"></textarea>
-
 							<button type="submit" class="btn btn-default col-sm-12"
 									id="submit" onclick="sendmail()" disabled="disabled">Send
 							</button>
-
-
 					</form>
 					</div>
-
-
-
-
-
-
-
 				</div>
 				</div>
 			</div>
@@ -687,18 +644,9 @@
 	</div>
 
 
-
-
-
-
-
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://code.jquery.com/jquery.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/buttonup.js"></script>
-
 	<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
-
 	</body>
 </html>

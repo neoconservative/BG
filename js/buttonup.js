@@ -30,7 +30,7 @@ $(document).ready(function($) {
     });
 });
 
-//Easy tabs Technologies key 2
+//Easy tabs Technologies key 3
 $(document).ready(function($) {
     $('.technologiestab_content3').hide();
     $('.technologiestab_content3:first').show();

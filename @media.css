@@ -1,6 +1,6 @@
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .navbarCustom {
-        margin-top: -43px;
+        margin-top: -50px;
         margin-right: -20px;
         margin-bottom: 0;
         border: none;
@@ -11,15 +11,6 @@
         margin-right: 12px;
         margin-bottom: 0px;
     }
-
-
-
-
-
-
-
-
-
     .page-heading {
         min-height: 360px;
     }
@@ -67,22 +58,126 @@
 
 
 
+    .technoPadding {
+        padding: 0;
+    }
 
+    .technologiesViewTitle {
+        padding-left: 0;
+        font-size: 21px;
+        text-align: center;
+        margin: 20px 0 0 0px;
+    }
+    .technologiesViewTitle2 {
+        padding-left: 0;
+        font-size: 21px;
+        text-align: center;
+        margin: 20px 0 0 0px;
+    }
+    .technologiesViewTitle3 {
+        padding-left: 0;
+        font-size: 21px;
+        text-align: center;
+        margin: 20px 0 0 0px;
+    }
+    .technologiesText {
+        padding-top: 0px;
+        height: auto;
+    }
+    .technologiesText2 {
+        padding-top: 0px;
+        height: auto;
+    }
+    .technologiesText3 {
+        padding-top: 0px;
+        height: auto;
+    }
+    .technologiestabs {
+        margin: 17px 11px;
+        padding: 0;
+        overflow-y: -moz-scrollbars-none;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        height: 57px;
+        border-left: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
 
+    ::-webkit-scrollbar:vertical {
+        width: 0px;
+    }
 
+    ::-webkit-scrollbar:horizontal {
+        height: 2px;
+    }
 
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 90, 255, 1);
+        border-radius: 2px;
+        border: 2px solid #005aff;
+    }
 
+    ::-webkit-scrollbar-track {
+        border-radius: 2px;
+        background-color: #7889a7;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    .technologiestabs li {
+        white-space: nowrap;
+    }
+    .technologiestab_content {
+        font-size: 14px;
+    }
+    .technologiestabs2 {
+        margin: 17px 11px;
+        padding: 0;
+        overflow-y: -moz-scrollbars-none;
+        overflow-x: scroll;
+        height: 57px;
+        border-left: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .technologiestabs2 li {
+        white-space: nowrap;
+    }
+    .technologiestab_content2 {
+        font-size: 14px;
+    }
+    .technologiestabs3 {
+        margin: 17px 11px;
+        padding: 0;
+        overflow-y: -moz-scrollbars-none;
+        overflow-x: scroll;
+        height: 57px;
+        border-left: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .technologiestabs3 li {
+        white-space: nowrap;
+    }
+    .technologiestab_content3 {
+        font-size: 14px;
+    }
+    .technologiestab_container {
+        height: auto;
+    }
+    .technologiesWrapp {
+        height: auto;
+    }
+    .technologiesWrapp2 {
+        height: auto;
+    }.technologiesWrapp3 {
+         height: auto;
+     }
+    .img-responsive {
+        height: 50px;
+    }
 
     .value {
         min-height: 380px;
@@ -115,12 +210,62 @@
     .valueCoreText {
         font-size: 14px;
     }
+    .PacificHouse {
+        margin-left: 5px;
+    }
+
+    #back-to-top {
+        bottom: 5px;
+    }
+}
+@media (min-width: 768px) and
+(max-width: 991px) {
+    .technologiesViewTitle {
+        padding-left: 0;
+        margin: 158px 0 0 25px;
+        font-size: 22px;
+    }
+    .technologiesViewTitle2 {
+        padding-left: 0;
+        margin: 112px 0 0 25px;
+        font-size: 22px;
+    }
+    .technologiesViewTitle3 {
+        padding-left: 0;
+        margin: 82px 0 0 25px;
+        font-size: 22px;
+    }
+    .technologiesViewBorder {
+        padding: 0 0 0 0;
+    }
+    .technologiestab_content {
+        font-size: 14px;
+        padding: 0px 20px 20px 20px;
+    }
+    .technologiestab_content2 {
+        font-size: 14px;
+        padding: 0px 20px 20px 20px;
+    }
+    .technologiestab_content3 {
+        font-size: 14px;
+        padding: 0px 20px 20px 20px;
+    }
+    .img-responsive {
+        height: 60px;
+    }
+    .img-value {
+        max-width: 70px;
+    }
+    .valueCore h3 {
+        font-size: 24px;
+    }
+    .valueCoreText {
+        font-size: 18px;
+    }
+    .valueTitletext {
+        font-size: 29px;
+    }
+
+
 
 }
-
-
-
-
-
-
-
