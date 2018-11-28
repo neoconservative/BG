@@ -490,7 +490,7 @@
 
 
 .contact-section {
-    padding-top: 0px;
+    padding-top: 0;
     background: #292929;
     font-family: Roboto,Arial,Tahoma,Verdana;
 }
@@ -519,9 +519,9 @@
 .bottom-info li {
     /*display: inline-block;*/
     margin-top: 40px;
-    margin-right: 0px;
+    margin-right: 0;
     margin-bottom: 25px;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 18px;
     white-space: nowrap;
     list-style-type: none;
@@ -552,7 +552,7 @@
     position:absolute;
 }
 .map-left {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 #back-to-top {
@@ -583,8 +583,28 @@
     background: #4f565f;
 }
 
+#menu-service::before {
+    display: block;
+    content: " ";
+    margin-top: -72px;
+    height: 72px;
+    visibility: hidden;
+    pointer-events: none;
+}
+#menu-technologiest::before {
+    display: block;
+    content: " ";
+    margin-top: -73px;
+    height: 73px;
+    visibility: hidden;
+    pointer-events: none;
+}
 
-
+.bookmark {
+    margin-top:-110px;
+    padding-bottom:110px;
+    display:block;
+}
 
 @font-face {
     font-family: "Roboto";

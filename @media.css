@@ -6,10 +6,10 @@
         border: none;
     }
     .navbar-toggle {
-        padding: 15px 12px 0px 15px;
+        padding: 15px 12px 0 15px;
         margin-top: 15px;
         margin-right: 12px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
     .page-heading {
         min-height: 360px;
@@ -31,14 +31,13 @@
     }
 
 
-
     .serviceCaption {
         margin: 24px 0;
         font-size: 18px;
     }
     .companyServiceContent {
         font-size: 14px;
-        margin: 0px 0%;
+        margin: 0 0;
     }
     .serviceTitle {
         font-size: 16px;
@@ -66,30 +65,30 @@
         padding-left: 0;
         font-size: 21px;
         text-align: center;
-        margin: 20px 0 0 0px;
+        margin: 20px 0 0 0;
     }
     .technologiesViewTitle2 {
         padding-left: 0;
         font-size: 21px;
         text-align: center;
-        margin: 20px 0 0 0px;
+        margin: 20px 0 0 0;
     }
     .technologiesViewTitle3 {
         padding-left: 0;
         font-size: 21px;
         text-align: center;
-        margin: 20px 0 0 0px;
+        margin: 20px 0 0 0;
     }
     .technologiesText {
-        padding-top: 0px;
+        padding-top: 0;
         height: auto;
     }
     .technologiesText2 {
-        padding-top: 0px;
+        padding-top: 0;
         height: auto;
     }
     .technologiesText3 {
-        padding-top: 0px;
+        padding-top: 0;
         height: auto;
     }
     .technologiestabs {
@@ -108,7 +107,7 @@
     }
 
     ::-webkit-scrollbar:vertical {
-        width: 0px;
+        width: 0;
     }
 
     ::-webkit-scrollbar:horizontal {
@@ -219,7 +218,8 @@
     }
 }
 @media (min-width: 768px) and
-(max-width: 991px) {
+(max-width: 991px)
+{
     .technologiesViewTitle {
         padding-left: 0;
         margin: 158px 0 0 25px;
@@ -240,15 +240,15 @@
     }
     .technologiestab_content {
         font-size: 14px;
-        padding: 0px 20px 20px 20px;
+        padding: 0 20px 20px 20px;
     }
     .technologiestab_content2 {
         font-size: 14px;
-        padding: 0px 20px 20px 20px;
+        padding: 0 20px 20px 20px;
     }
     .technologiestab_content3 {
         font-size: 14px;
-        padding: 0px 20px 20px 20px;
+        padding: 0 20px 20px 20px;
     }
     .img-responsive {
         height: 60px;

@@ -21,7 +21,6 @@
 						<div class="col-md-9 col-sm-9 col-xs-12">
 							<nav class="navbar navbarCustom navbar-right" role="navigation">
 								<div class="navbar-inst">
-
 									<div class="container-fluid">
 										<div class="navbar-header">
 											<button type="button" class="navbar-toggle collapsed"
@@ -35,10 +34,10 @@
 										<!—Само меню-->
 										<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
 											<ul class="nav navbar-nav">
-												<li class="buttActive"><a class="anchor" href="#menu-service">Service<span class="sr-only">(current)</span></a></li>
-												<li class="buttActive"><a class="anchor" href="#menu-technologiest">Technologies</a></li>
-												<li class="buttActive"><a class="anchor" href="#menu-value">Core Values</a></li>
-												<li class="buttActive"><a class="anchor" href="#menu-contact">Contact Us</a></li>
+												<li class="buttActive active"><a class="anchor" data-toggle="collapse" data-target=".navbar-collapse" href="#menu-service">Service<span class="sr-only">(current)</span></a></li>
+												<li class="buttActive"><a class="anchor" data-toggle="collapse" data-target=".navbar-collapse" href="#menu-technologiest">Technologies</a></li>
+												<li class="buttActive"><a class="anchor" data-toggle="collapse" data-target=".navbar-collapse" href="#menu-value">Core Values</a></li>
+												<li class="buttActive"><a class="anchor" data-toggle="collapse" data-target=".navbar-collapse" href="#menu-contact">Contact Us</a></li>
 											</ul>
 										</div>
 									</div>
@@ -506,7 +505,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="menu-value" class="valuePosition">
+	<section class="valuePosition">
 		<div class="container-fluid">
 			<div class="row">
 
@@ -516,6 +515,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="valueTitletext">
+						<span class="bookmark" id="menu-value"></span>
 						<p>Our Core Values</p>
 					</div>
 				</div>
@@ -592,7 +592,7 @@
 		</div>
 	</section>
 	<section>
-	<div id="menu-contact" class="contact-section">
+	<div class="contact-section">
 		<div class="container-fluid map-left">
 			<div class="row">
 				<div class="col-md-4 col-sm-12 maps">
@@ -601,7 +601,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-					<div class="contactTitle">
+					<div id="menu-contact" class="contactTitle">
 						<h3>Contact us</h3>
 					</div>
 					<div class="contactInfo">
